@@ -1,0 +1,17 @@
+<html>
+<head>
+    <meta name="admin.active.section" content="admin_plugins_menu/flaw-sync-web-section"/>
+    <title> Monitoring And Troubleshooting</title>
+    <style>div.noshow { display: none; } </style>
+    $webResourceManager.requireResourcesForContext("monitoringAndTroubleshootingResources-Context")
+</head>
+    <body>
+        <h2> ~~ Demo ~~ </h2>
+        <div>
+          <input class="aui-button button" type="button" name="checkSuccess" value="Check Success" id="checkSuccess" title="Check Success" />
+        </div>
+        <div>
+           <input style="margin-top : 20px;" class="aui-button button" type="button" name="checkError" value="Check Error" id="checkError" title="Check Error" />
+        </div>
+    </body>
+</html>
